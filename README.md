@@ -1,46 +1,110 @@
-# Getting Started with Create React App and Redux
+#  React Ecommerce
+![foto](https://i.imgur.com/qpWG5wc.gif)
+## Índice
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+* Sobre el proyecto
+    * Instalación y despliegue
+    * Tecnologías usadas
+    * Origen
+    * Objetivos
+    * Concepto e inspiración
 
-## Available Scripts
+* Retos presentados
 
-In the project directory, you can run:
+* Agradecimientos
 
-### `npm start`
+* Autores
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Sobre el proyecto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+En esta ocasión, he creado un proyecto Full-Stack sobre una red social para deportistas. En esta los usuarios pueden subir posts sobre temas relacionados con el deporte y obtener información de interés de otros usuarios. Además, podrán consultar y editar la información de usuario en el apartado de perfil. 
 
-### `npm test`
+### 💫 Instalación y despliegue
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para descargarte el repositorio, en Visual Studio, abre una terminal y ejecuta el comando siguiente:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+$ git clone https://github.com/Santiremix/RedSocial
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ Seguidamente tendrás que descargar los módulos externos. Para ello, realiza el siguiente comando.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+$ npm i
+```
 
-### `npm run eject`
+Después, levanta el frontend de React así como el backend a través de:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+$ npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 💻 Tecnologías usadas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* HTML
+* CSS
+* Sass
+* Javascript
+* React
+* React-GlobalContext
+* React-Router
+* Sequelize 
+* NodeJS 
+* Axios 
+* Mongoose
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Origen
 
-## Learn More
+Este proyecto está pensado como un ejercicio en The Bridge que nos permita poner en práctica los conocimientos adquiridos en torno al MERN Stack. Vienen de la mano el familizarnos con crear diversos componentes en React y poder acceder de forma global al contenido de ciertas funciones que nos han ayudado a desarrollar el proyecto.  En este caso he creado un nuevo Backend a partir de uno que ya estaba hecho en un ejercico anterior (Backend de una Red Social). 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ⚔️ Objetivos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Crear una API REST que sea capaz de lo siguiente:
+* Un proyecto de MERN Stack para practicar todos lo aprendido en estas tecnologías.
+* Registro de usuarios.
+* Login de usuarios.
+* Que se puedan ver los posts del usuario logueado y del resto de usuarios.
+* Que se pueda crear un post
+* Que en tu perfil puedas ver tus datos (cantidad de post, follows y followers)
+
+#### ⚔️ Componentes mínimos:
+* Register
+* Login
+* Home
+* Perfil. Vista perfil con los datos del usuario logeado y sus posts
+
+Implementa React Router en tu página
+* /home. Home de la app
+* /login
+* /register
+* /profile. 
+Utilizar Context 
+
+#### ⚔️ Desafío:
+* Los componentes no podrán sobrepasar las 400 líneas de código.
+* Las funciones no deberán sobrepasar las 75 líneas de código.
+
+## 🔜 Retos presentados
+
+—— Subir imágenes en los posts y su previsualización ——<br>
+—— Asignar valores por defecto a las imágenes de perfil ——<br>
+
+
+## 🔜 Futuras Implementaciones
+
+* Comentarios en los Posts.
+* Funcionalidad del buscador de usuarios. 
+* Mejora del Frontend añadiendo un Header y un Footer.
+* Poder visitar perfiles de otros usuarios.
+
+
+
+##  ♥️ Agradecimientos
+
+A todos los compañeros y profesores de The Bridge, StackOverflow, YouTube y foros varios de dudosa procedencia.
+
+
+## Autor
+
+### [Santiago](https://github.com/Santiremix)
