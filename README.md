@@ -1,5 +1,4 @@
-#  React Ecommerce
-![foto](https://i.imgur.com/qpWG5wc.gif)
+#  ProyectoMERN
 ## Índice
 
 * Sobre el proyecto
